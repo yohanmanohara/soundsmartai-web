@@ -1,0 +1,456 @@
+*{
+  padding: 0;
+  margin: 0;
+
+
+
+
+
+
+}
+::-webkit-scrollbar{
+ background-color: #000000;
+width: 10px;
+
+
+
+}
+::-webkit-scrollbar-track{
+
+  margin-block: 120px;
+  padding: 3;
+
+}
+::-webkit-scrollbar-thumb{
+
+  background:  var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  border-radius: 60px;
+
+}
+
+
+
+
+body{
+  background-color: #000000;
+
+  overflow-x: hidden;
+  overflow-y:scroll;
+  scroll-behavior: smooth;
+  
+  cursor: none;
+  cursor:none;
+
+}
+
+/* logo and top bar end */
+
+.maxwidth{
+  position: relative;
+  left: 10%;
+ 
+ 
+
+
+
+}
+.frontpic{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../assest/02.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+
+}
+@media (max-height:614px){
+  .frontpic{
+    padding-top: 200px;
+  }
+
+}
+.toptxt{
+  display: flex;
+  align-items: center;
+  left: 4px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+
+  height: 188.139px;
+ 
+  color: aliceblue;
+
+}
+
+.Efficient{
+
+  background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  
+}
+
+
+.para1{
+  position: relative;
+  top: 40px;
+  left: 10px;
+  color: rgb(255, 255, 255);
+  color: #FFF;
+font-family: Inter;
+font-size: 23px;
+font-weight: 510;
+width: 500px;
+
+}
+.bttr{
+
+  cursor: none;
+
+}
+/* butoon here page 1 */
+.tryit{
+  position: relative;
+  top: 60px;
+  height: 84.372px;
+  width: 247px;
+  border-radius: 80px;
+  background-color: #004B8F;
+  border: none;
+  color: white;
+ font-size: 32px;
+ font-weight: bold;
+ 
+ 
+}
+.tryit:hover{
+  background: var(--Linear, linear-gradient(94deg, #5076D9 11.42%, #06FF97 89.58%));
+  cursor: pointer;
+  color: #000000;
+  cursor: pointer;
+  transition: 4s;
+  transform: b;
+  cursor: none;
+}
+
+
+/* container2 */
+.contain2{
+  height: 100vh;
+  /* border: #06FF97 solid 2px; */
+}
+
+
+.playbut{
+  background-image: url(../assest/03.png);
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 40%;
+  left: 5%;
+
+}
+.wave{
+  background-image: url(../assest/04.png);
+  width: 400px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 24%;
+  left: 36%;
+
+}
+
+.hi{
+  float: right;
+  font-size: 80px;
+  font-weight: bold;
+  margin-right: 10%;
+}
+@media(max-width: 1395px){
+  .hi{
+    position: relative;
+    top:340px;
+  }
+  .contain2{
+    height: 160vh;
+    
+  }
+  
+}
+@media (max-width: 757px){
+  .hi{
+    position: relative;
+    top: 500px;
+  }
+  .wave{
+    width: 250px;
+  }
+  
+}
+
+
+
+.gif{
+  /* background-image: url(/assest/05.gif); */
+  height: auto;
+  width: auto;
+  position: relative;
+  bottom: 50%;  
+ 
+
+  
+  /* background-size: cover; */
+  /* background-position: center; */
+  
+  
+
+
+
+}
+/* container 3 */
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  height:fit-content;
+  padding-bottom: 240px;
+
+ 
+
+
+}
+@media(max-width: 1300px) and ( min-width: 430px){
+  .container3{
+    display: none;
+  }
+
+.container03
+{
+  height: max-content;
+  padding-bottom: 400px;
+  
+}
+.bottom1{
+  display: flex;
+  overflow-x: auto;
+  position: relative;
+   padding-left: 50px;
+   column-gap: 32px;
+   padding-bottom: 0px;
+   width: 95%;
+}
+.top01{
+  padding-top: 250px;
+  padding-bottom: 80px;
+  padding-left: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.tops{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bolder;
+  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-left: 30px;
+  width: 400px;
+}
+
+
+}
+
+@media(min-width:1300px){
+  .container03{
+    display: none;
+  
+  }
+
+
+}
+@media(max-width:1300px ){
+  .container3{
+    display: none;
+  
+  }
+}
+.section3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  position: relative;
+  bottom: 30%;
+}
+.section3 .top{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.section3 .bottom{
+  display: flex;
+  align-items: start;
+  justify-items: start;
+  /* border: 2px solid green; */
+  display: grid;
+  /* align-items: center; */
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-row: span 2;
+  grid-column: 4;
+  gap: 20px;
+  flex: 3;
+
+}
+
+.section3 .right{
+  /* background-image: url('../assest/'); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid green; */
+  width: 200px;
+  height: 200px;
+}
+
+.top{
+
+  display: flex;
+  font-size: 45px;
+  color:white;
+
+}
+.top1{
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  top: 160px;
+}
+.bottom{
+  position: relative;
+  top: 200px;
+
+}
+.dec{
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+
+
+
+/* page4 starting */
+
+.back3{
+ /* margin: auto; */
+  height: fit-content;
+  width:100%;
+  background: linear-gradient(98deg, #000 27.26%, #292C64 57.77%, rgba(18, 94, 67, 0.65) 75.21%, #202255 101.37%, #000 120.26%);
+  padding-bottom: 40px;
+
+}
+.soundmartai{
+  margin-left: 200px;
+
+}
+.soundtopic{
+  padding-top: 170px;
+  color: white;
+  font-size: 60px;
+  font-family: inter;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.sounddisc{
+color: white;
+font-size: 27px;
+font-family: inter;
+width: auto;
+padding-right: 80px;
+text-align: justify;
+
+font-weight: 500;
+
+
+padding-bottom: 100px;
+display: flex;
+
+}
+
+.imgasi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* page5 starting */
+.back4{
+  height: max-content;
+  width: 100%;
+  background-color: #000;
+
+}
+.clientimpression{
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-family: inter;
+  font-weight: 700;
+  padding-top: 60px;
+
+}
+
+.flex3{
+  padding-top: 70px;
+  color: white;
+  display: flex;
+  font-size: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+ text-align: justify;
+ overflow-x: auto;
+ padding-bottom: 230px;
+
+}
+.paragrph1{
+  width: 800px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.paragrph2{
+  width: 800px;
+  margin-right: 40px;
+
+
+}
+.paragrph3{
+  width: 800px;
+}
+/*  client impresion end */
+
+
